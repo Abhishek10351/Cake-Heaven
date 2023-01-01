@@ -26,5 +26,6 @@ jobs:
         pip install -r requirements.txt
     - name: Run Tests
       run: |
-        cd ../cakes
+        cd ../
+        listdir
         python manage.py test

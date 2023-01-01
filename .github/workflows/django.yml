@@ -27,5 +27,5 @@ jobs:
     - name: Run Tests
       run: |
         cd ../
-        listdir
+        ls
         python manage.py test
